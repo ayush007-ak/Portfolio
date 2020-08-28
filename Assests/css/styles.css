@@ -381,3 +381,11 @@ text-align: center;
     border-radius: .5rem;
     overflow: hidden;
 }
+
+.work_img img{
+    transition: 1s;
+    cursor: pointer;
+}
+.work_img img:hover{
+    transform: scale(1.1);
+}
