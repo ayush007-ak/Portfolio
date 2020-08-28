@@ -298,3 +298,86 @@ text-align: center;
     width: 200px;
     border-radius: .5rem;
 }
+
+/* SKILLS */
+
+.skills_container{
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.skills_subtitle{
+    margin-bottom: var(--mb-2);
+}
+.skills_text{
+    margin-bottom: var(--mb-4);
+}
+
+.skills_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;  /*radius se hota kya ha gola(curve ajata ha margin ma*/
+    box-shadow: 0 4px 25px rgba(14,35,49,.15);
+}
+
+.skills_icon{
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: blue;
+}
+
+.skills_names{
+    display: flex;
+    align-items: center;
+}
+
+.skills_bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+}
+
+
+.skills_html{
+    width: 95%;
+}
+
+
+.skills_css{
+    width: 95%;
+}
+
+.skills_React{
+    width: 90%;
+}
+
+.skills_js{
+    width: 80%;
+}
+.skills_img{
+    border-radius: .5rem;
+}
+
+/* work*/
+.work{
+    text-align: center;
+}
+
+.work_container{
+    row-gap: 2rem;
+}
+
+.work_img{
+    box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
+    border-radius: .5rem;
+    overflow: hidden;
+}
